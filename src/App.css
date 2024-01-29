@@ -1,0 +1,48 @@
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:380px;
+  height:390px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to bottom right, rgba(188, 112, 210, 0.9), rgba(100, 100, 255, 0.9));
+  
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+
+}
+.overlay h1 {
+  margin: 0;
+}
+.input-text{
+  height:32px;
+  font-size: 18px;
+  border:0.2px solid black;
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+  
+  .btn{
+    font-size: 18px;
+    margin-left:30px;
+    width:80px;
+    height:38px;
+    padding:5px;
+    border:none;
+    border-radius: 6px;
+    background-color: rgb(152, 64, 234);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s ease;
+    font-weight: 600;
+  }
+  .btn:hover{
+    background-color:  rgb(159, 77, 236);
+  }
+.resultDiv{
+  font-size: 18px;
+  text-align: left;
+  margin-left:24px;
+  font-weight: 600;
+}
