@@ -41,7 +41,7 @@ const onSubmitHandler=(e)=>{
         <button className='btn'>Search</button>
         </form><br/>
         <div className='resultDiv'>
-
+          {/* <img src={data.avatar_url}></img> */}
           Name: {data.name}<br/>
           Bio: {data.bio}<br/>
           Repository: {data.public_repos}<br/>
