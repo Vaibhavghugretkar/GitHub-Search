@@ -4,14 +4,14 @@ import React, {useState} from 'react';
 function App() {
 const[username, setUserName] =useState("")
 const[data, setData]=useState({});
-
+const url="https://api.github.com/"
 const onChangeHandler=(event)=>{
   setUserName(event.target.value);
 }
 
 const onSubmitHandler=(e)=>{
   e.preventDefault();
-  fetch(`https://api.github.com/users/${username}`)
+  fetch(`${url}users/${username}`)
   .then((result)=>{
     return result.json()
     .then((value)=>{
